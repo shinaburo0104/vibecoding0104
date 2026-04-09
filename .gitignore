@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# PyInstaller
+# .exe는 GitHub 100MB 제한 때문에 Release 에셋으로 별도 업로드합니다.
+build/
+dist/
+*.spec
+*.manifest
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Temporary files
+_preview_screenshot*.png
+*.log
+main_stderr.log
+
+# Secrets — never commit (앱이 쓰는 설정은 홈 디렉토리에 저장되므로 프로젝트엔 없지만 안전장치)
+.ft_messenger_config.json
+*.key
+*secret*
+
+# OS
+*.tmp
+*~
